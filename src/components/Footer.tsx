@@ -46,11 +46,11 @@ const Footer: React.FC = () => {
 
           {/* Казино */}
           <div>
-            <h4 className="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Казино</h4>
+            <h4 className="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Другие игры</h4>
             <ul className="space-y-2">
-              {['1Win Aviator', 'Mostbet Aviator', '1xBet Aviator', 'Pin-Up Aviator', 'Melbet Aviator', 'Parimatch'].map((l) => (
+              {['', 'mines', 'speed and cash', 'Rocket queen', 'Lucky jet', 'Tower rush'].map((l) => (
                 <li key={l}>
-                  <a href="#" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">{l}</a>
+                  <a href="https://minespromo.top/" className="text-gray-500 hover:text-gray-300 text-sm transition-colors">{l}</a>
                 </li>
               ))}
             </ul>
